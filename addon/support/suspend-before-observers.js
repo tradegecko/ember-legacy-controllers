@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import beforeEvent from './beforeEvent';
+import beforeEvent from './before-event';
 
 export default function suspendBeforeObservers(obj, paths, target, method, callback) {
   var events = paths.map(beforeEvent);
