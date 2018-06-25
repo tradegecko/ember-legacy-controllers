@@ -1,5 +1,7 @@
 import Ember from 'ember';
 
+var BEFORE_OBSERVERS = ':before';
+
 function beforeEvent(keyName) {
   return keyName + BEFORE_OBSERVERS;
 }
